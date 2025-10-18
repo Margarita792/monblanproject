@@ -12,13 +12,15 @@ The project replicates the provided Figma design and demonstrates adaptive layou
 - **React Router DOM**
 - **JavaScript (ES6+)**
 
----
+🔗 **Figma Design:**
+
+https://www.figma.com/design/MwGYHQfDaytsvUW7ivCNMY/Markup-test?node-id=0-1&t=71Of6lIKdv6K8Zcy-1
 
 ## 🛠️ Installation and Setup
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Margarita792/monblanproject.git
+git clone https://github.com/Margarita792/monblanproject
 cd monblanproject
 
 # 2. Install dependencies
