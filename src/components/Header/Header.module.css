@@ -1,0 +1,191 @@
+.mainContainer {
+  width: 100%;
+  min-height: 172px;
+  /* height: auto; */
+  background-color: rgba(255, 255, 255, 0.67);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12),
+    inset 0px 12px 24px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  position: relative;
+  z-index: 3;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.title {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+.badgeStart {
+  width: 135px;
+  height: 28px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(61, 142, 218, 1);
+  color: rgba(61, 142, 218, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.sectionPosts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.textPosts {
+  font-size: 14px;
+}
+
+.sectionForDate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.dateLabel {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+.dateField {
+  display: inline-flex;
+  align-items: center;
+  /* gap: 6px; */
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  height: 36px;
+  padding: 0 0 0 8px;
+}
+.input {
+  border: none;
+  outline: none;
+  max-width: 220px;
+  height: 28px;
+  min-width: 140px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+.btnIcon {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #b1b1b1;
+  background: #d5d5d5;
+  cursor: pointer;
+  line-height: 1;
+  font-size: 14px;
+  flex: 0 0 36px;
+}
+.btnIcon:hover {
+  background: #eef2f6;
+}
+@media (max-width: 1200px) {
+  .mainContainer {
+    gap: 40px;
+  }
+  .sectionPosts {
+    gap: 14px;
+  }
+  .input {
+    width: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .mainContainer {
+    gap: 32px;
+  }
+  .header {
+    gap: 10px;
+  }
+  
+  .badgeStart {
+    transform: translateY(1px);
+  }
+  .sectionForDate {
+    gap: 10px;
+  }
+  .dateLabel {
+    font-size: 15px;
+  }
+  .input {
+    width: 140px;
+  }
+}
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 16px;
+  }
+
+  .header {
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .sectionPosts {
+    gap: 12px;
+  }
+
+  .sectionForDate {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+
+  .dateLabel {
+    width: 100%;
+    font-size: 16px;
+  }
+
+
+  .input {
+    width: 120px;
+  }
+}
+@media (max-width: 576px) {
+.imgLogo {
+    width: 50px;
+  }
+  .title {
+    font-size: clamp(20px, 7vw, 24px);
+  }
+
+  .textPosts {
+    font-size: 13px;
+  }
+  .badgeStart {
+    height: 28px;
+    padding: 0 8px;
+    font-size: 12px;
+  }
+
+  .dateField {
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  .btnIcon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.flatpickr-calendar {
+  z-index: 9999;
+}
