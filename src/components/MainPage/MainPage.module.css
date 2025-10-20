@@ -9,7 +9,7 @@
   left: 0;
   height: auto;
   max-width: 100%;
-  z-index: -1;
+  z-index: -99;
 }
 .wrapBtn {
   display: flex;
