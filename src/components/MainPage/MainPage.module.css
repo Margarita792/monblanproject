@@ -5,8 +5,11 @@
 }
 .bgTop {
   position: absolute;
-  right: 800px;
-  height: 400px;
+  top: 0;
+  left: 0;
+  height: auto;
+  max-width: 100%;
+  z-index: -1;
 }
 .wrapBtn {
   display: flex;
@@ -14,9 +17,12 @@
   margin: 20px 0 218px;
 }
 .bgBm {
-  position: absolute;
+   position: absolute;
   bottom: -100px;
-  right: 0px;
+  right: 0;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
 }
 .btn {
   width: 111px;
@@ -30,7 +36,7 @@
 }
 @media (max-width: 1200px) {
   .bgTop {
-    right: 620px;
+    width: 60%;
   }
   .bgBm {
     right: -20px;   
@@ -41,7 +47,7 @@
 
 @media (max-width: 992px) {
   .bgTop {
-    right: 510px;
+    width: 70%;
   }
     .bgBm {
     right: -30px;   
@@ -52,7 +58,8 @@
 
 @media (max-width: 768px) {
   .bgTop {
-    left: -100px;
+    width: 80%;
+    opacity: 0.9;
   }
   .bgBm {
     right: -60px;   
@@ -63,8 +70,7 @@
 
 @media (max-width: 480px) {
   .bgTop {
-    right: auto;
-    height: 220px;
+    width: 100%;
     opacity: 0.6;
   }
   .bgBm {

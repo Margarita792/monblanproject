@@ -1,7 +1,17 @@
+import img1 from "../assets/cardsImgs/Rectangle 20 (1).svg";
+import img2 from "../assets/cardsImgs/Rectangle 20 (9).svg";
+import img3 from "../assets/cardsImgs/Rectangle 20 (2).svg";
+import img4 from "../assets/cardsImgs/Rectangle 20 (3).svg";
+import img5 from "../assets/cardsImgs/Rectangle 20 (4).svg";
+import img6 from "../assets/cardsImgs/Rectangle 20 (5).svg";
+import img7 from "../assets/cardsImgs/Rectangle 20 (6).svg";
+import img8 from "../assets/cardsImgs/Rectangle 20 (7).svg";
+import img9 from "../assets/cardsImgs/Rectangle 20 (8).svg";
+
 export const posts = [
   {
     id: 1,
-    img: "https://iili.io/K8KN9LX.jpg",
+    img: img1,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -10,7 +20,7 @@ export const posts = [
   },
   {
     id: 2,
-    img: "https://iili.io/K8fCuvS.th.png",
+    img: img2,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -19,7 +29,7 @@ export const posts = [
   },
   {
     id: 3,
-    img: "https://iili.io/K8fAZyx.jpg",
+    img: img3,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -28,7 +38,7 @@ export const posts = [
   },
   {
     id: 4,
-    img: "https://iili.io/K8f5zxV.th.jpg",
+    img: img4,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -37,7 +47,7 @@ export const posts = [
   },
   {
     id: 5,
-    img: "https://iili.io/K8faAfS.jpg",
+    img: img5,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -46,7 +56,7 @@ export const posts = [
   },
   {
     id: 6,
-    img: "https://iili.io/K8fcFhx.jpg",
+    img: img6,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -55,7 +65,7 @@ export const posts = [
   },
   {
     id: 7,
-    img: "https://iili.io/K8fl9Gp.jpg",
+    img: img7,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -64,7 +74,7 @@ export const posts = [
   },
   {
     id: 8,
-    img: "https://iili.io/K8f01zG.jpg",
+    img: img8,
     date: "9-08-2016",
     likes: 128,
     comments: 31,
@@ -73,7 +83,7 @@ export const posts = [
   },
   {
     id: 9,
-    img: "https://iili.io/K8fESUB.jpg",
+    img: img9,
     date: "9-08-2016",
     likes: 128,
     comments: 31,

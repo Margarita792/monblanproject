@@ -11,7 +11,6 @@ function MainPage() {
   const [view, setView] = useState("rows");
   return (
     <>
-    
       <div className = {style.wrapper}>
         <img src={bgTop}alt="background" className={style.bgTop}/>
         <Header />

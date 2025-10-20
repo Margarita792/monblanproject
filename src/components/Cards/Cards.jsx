@@ -8,19 +8,19 @@ function Cards({ items, view }) {
         {items.slice(0,8)
         .map((card) => (
           <article key={card.id} className={style.tile}>
-            <div
-              className={style.thumb}
+            <img className={style.thumb} src={card.img} alt="card" />
+            {/* <div
               style={{ backgroundImage: `url(${card.img})` }}
-            />
+            /> */}
             <div className={style.meta}>
               <div className={style.tile}>
                 <b className={style.titleTile}>Today</b>
                 <div className={style.statTile}>
-                  <img className={style.icoTile} src={likes} alt="" />
+                  <img className={style.icoTile} src={likes} alt="likes" />
                   <span className={style.numTile}>128</span>
                 </div>
                 <div className={style.statTile}>
-                  <img className={style.icoTile} src={comments} alt="" />
+                  <img className={style.icoTile} src={comments} alt="comments" />
                   <span className={style.numTile}>31</span>
                 </div>
               </div>
@@ -28,11 +28,11 @@ function Cards({ items, view }) {
               <div className={style.tile}>
                 <b className={style.titleTile}>9-08-2016</b>
                 <div className={style.statTile}>
-                  <img className={style.icoTile} src={likes} alt="" />
+                  <img className={style.icoTile} src={likes} alt="likes" />
                   <span className={style.numTile}>67</span>
                 </div>
                 <div className={style.statTile}>
-                  <img className={style.icoTile} src={comments} alt="" />
+                  <img className={style.icoTile} src={comments} alt="comments" />
                   <span>22</span>
                 </div>
               </div>
@@ -53,7 +53,7 @@ function Cards({ items, view }) {
       <div className={style.rows}>
         {items.map((card) => (
           <article key={card.id} className={style.rowCard}>
-            <img className={style.rowImg} src={card.img} alt="" />
+            <img className={style.rowImg} src={card.img} alt="img" />
             <div className={style.col}>
               <b className={style.heading}>Today</b>
               <div className={style.stats}>
