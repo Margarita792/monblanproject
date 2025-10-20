@@ -105,6 +105,8 @@
   display: grid;
   justify-items: center;
   gap: 12px;
+  position: relative;
+  z-index: 3;
 }
 
 .rowCard {
